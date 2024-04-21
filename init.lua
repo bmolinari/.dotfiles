@@ -69,7 +69,7 @@ keymap.set('n', '+', '<C-a>')
 keymap.set('n', '-', '<C-x>')
 
 -- Select all
-keymap.set('n', '<C-a>', 'gg<S-v>G')
+keymap.set('n', '<C-S-a>', 'gg<S-v>G')
 
 -- This lets you move highlighted code up and down
 keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
