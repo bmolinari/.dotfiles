@@ -21,6 +21,8 @@ return {
 
           -- custom mappings
           vim.keymap.set('n', 't', api.node.open.tab, opts 'Tab')
+          vim.keymap.set('n', '<leader>t', ':NvimTreeToggle<Return>')
+          vim.keymap.set('n', '<leader>f', ':NvimTreeFindFile<Return>')
         end,
         actions = {
           open_file = {
