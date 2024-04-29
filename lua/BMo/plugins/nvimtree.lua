@@ -1,20 +1,5 @@
 return {
   {
-    'kdheepak/lazygit.nvim',
-    keys = {
-      {
-        ';c',
-        ':LazyGit<Return>',
-        silent = true,
-        noremap = true,
-      },
-    },
-    -- optional for floating window border decoration
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-    },
-  },
-  {
     'nvim-tree/nvim-tree.lua',
     config = function()
       require('nvim-tree').setup {
