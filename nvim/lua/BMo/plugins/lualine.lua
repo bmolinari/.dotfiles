@@ -8,7 +8,7 @@ return {
     -- configure lualine with modified theme
     lualine.setup {
       options = {
-        theme = 'molokai',
+        theme = 'sonokai',
       },
       sections = {
         lualine_x = {
