@@ -3,7 +3,7 @@ import = [
 ]
 
 [env]
-TERM = "xterm-256color"
+TERM = "alacritty"
 
 [window]
 padding.x = 10
@@ -11,7 +11,7 @@ padding.y = 10
 
 decorations = "Buttonless"
 
-opacity = 0.9
+opacity = 0.8
 blur = true
 startup_mode = "Maximized"
 option_as_alt = "Both"
