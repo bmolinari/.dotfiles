@@ -22,6 +22,7 @@ return {
           lua = { 'stylua' },
           python = { 'isort', 'black' },
           go = { { 'goimports', 'gofmt' } },
+          sh = { 'shfmt' },
         },
         notify_on_error = false,
         format_on_save = {
