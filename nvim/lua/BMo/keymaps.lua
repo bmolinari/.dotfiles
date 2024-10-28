@@ -39,6 +39,10 @@ keymap.set('n', 'J', 'mzJ`z')
 keymap.set('n', '<C-d>', '<C-d>zz')
 keymap.set('n', '<C-u>', '<C-u>zz')
 
+-- CNext and CPrev for quickfix list
+keymap.set('n', '[j', '<cmd>cnext<CR>zz')
+keymap.set('n', '[k', '<cmd>cprev<CR>zz')
+
 -- This keeps the screen centered when searching
 keymap.set('n', 'n', 'nzzzv')
 keymap.set('n', 'N', 'Nzzzv')

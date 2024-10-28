@@ -9,7 +9,7 @@ fi
 #eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set Zinit directory
-ZINIT_HOME="{XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 
 # Download Zinit, if not initialized
 if [ ! -d "$ZINIT_HOME" ]; then

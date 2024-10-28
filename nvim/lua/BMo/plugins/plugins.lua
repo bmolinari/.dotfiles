@@ -43,8 +43,12 @@ return {
   { -- Education app :VimBeGood
     'ThePrimeagen/vim-be-good',
   },
-  { -- Automatically closes { ( [
-    'rstacruz/vim-closer',
+  {
+    'windwp/nvim-autopairs',
+    event = 'InsertEnter',
+    config = true,
+    -- use opts = {} for passing setup options
+    -- this is equalent to setup({}) function
   },
   { -- Add hotkeys to comment code
     'numToStr/Comment.nvim',
