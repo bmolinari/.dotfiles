@@ -66,7 +66,12 @@ alias ls='ls --color'
 alias nvim='nvim'
 alias c='clear'
 alias cd='z'
+alias t='tmux'
+alias vim='nvim'
 
 # Shell Integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
+
+# Export Paths
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH

@@ -325,3 +325,10 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#custom-animations {
+    padding: 0 10px;
+    background: #444;
+    color: #fff;
+    border-radius: 5px;
+}

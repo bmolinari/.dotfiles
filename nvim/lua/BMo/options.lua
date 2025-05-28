@@ -36,3 +36,9 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 11
 
 vim.opt.hlsearch = true
+
+vim.filetype.add {
+  extension = {
+    h = 'c',
+  },
+}

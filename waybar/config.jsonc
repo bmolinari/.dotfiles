@@ -16,6 +16,7 @@
         "sway/window"
     ],
     "modules-right": [
+        "custom/animations",
         "mpd",
         "idle_inhibitor",
         "pulseaudio",
@@ -49,6 +50,12 @@
     //         "default": ""
     //     }
     // },
+    "custom/animations": {
+    "exec":"~/.config/hypr/scripts/ToggleAnimations.sh && echo 'Animations toggled'",
+    "tooltip": false,
+    "interval": 0,
+    "on-click": "~/.config/hypr/scripts/ToggleAnimations.sh",
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -107,6 +114,9 @@
     },
     "clock": {
         // "timezone": "America/New_York",
+        "interval": 60,
+        "format": "{:%I:%M %p}",
+        "max-length": 25,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

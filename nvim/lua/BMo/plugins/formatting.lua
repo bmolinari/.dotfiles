@@ -23,6 +23,8 @@ return {
           python = { 'isort', 'black' },
           go = { { 'goimports', 'gofmt' } },
           sh = { 'shfmt' },
+          c = { 'clang-format' },
+          h = { 'clang-format' },
         },
         notify_on_error = false,
         format_on_save = {
