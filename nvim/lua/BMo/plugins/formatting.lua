@@ -21,7 +21,7 @@ return {
           liquid = { 'prettier' },
           lua = { 'stylua' },
           python = { 'isort', 'black' },
-          go = { { 'goimports', 'gofmt' } },
+          go = { 'goimports', 'gofmt', stop_after_first = false },
           sh = { 'shfmt' },
           c = { 'clang-format' },
           h = { 'clang-format' },

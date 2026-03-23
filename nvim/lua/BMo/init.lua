@@ -15,6 +15,11 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- local projectfile = vim.fn.getcwd() .. '/project.godot'
+-- if projectfile then
+--   vim.fn.serverstart './godothost'
+-- end
+
 require('lazy').setup('BMo.plugins', {
   ui = {
     icons = vim.g.have_nerd_font and {} or {

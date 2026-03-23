@@ -75,3 +75,5 @@ eval "$(zoxide init zsh)"
 
 # Export Paths
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+export DOCKER_BUILDKIT=1
+export COMPOSE_DOCKER_CLI_BUILD=1
